@@ -21,15 +21,16 @@ Tech Stack
 
 Setup
 
-Step 1: Clone the repository
+1. Clone the repository:
+<pre> \`\`\`bash
 git clone https://github.com/yourusername/uen-weather-portal.git
-cd uen-weather-portal
+cd uen-weather-portal \`\`\` </pre>
 
 Step 2: Install the required independencies
-npm install
+<pre> \`\`\`bash npm install npm run dev \`\`\` </pre>
 
 Step 3: Run the app
-npm run dev
+<pre> \`\`\`bash npm run dev \`\`\` </pre>
 
 Step 4: Access via localhost
-http://localhost:3000
+<pre> \`\`\`bash http://localhost:3000 \`\`\` </pre>
