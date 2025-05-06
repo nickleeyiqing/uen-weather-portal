@@ -9,6 +9,7 @@ UEN Validator
 This app was built as a technical assignment. It includes real API integration, clean UI, and production-ready structure.
 
 Tech Stack
+<pre>
 -Next.js 15
 
 -React 18
@@ -18,6 +19,7 @@ Tech Stack
 -Native CSS (inline)
 
 -Real-time REST API
+</pre>
 
 Setup
 
