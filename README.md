@@ -2,26 +2,26 @@
 
 This is a simple portal built with Next.js and React, providing two services:
 
-UEN Validator
+- UEN Validator
 
-2-Hour Weather Forecast (Singapore)
+- 2-Hour Weather Forecast (Singapore)
 
 This app was built as a technical assignment. It includes real API integration, clean UI, and production-ready structure.
 
-Tech Stack
+## Tech Stack
 <pre>
 -Next.js 15
 
--React 18
+- React 18
 
--TypeScript
+- TypeScript
 
--Native CSS (inline)
+- Native CSS (inline)
 
--Real-time REST API
+- Real-time REST API
 </pre>
 
-Setup
+## Setup
 
 1. Clone the repository:
 <pre>
@@ -36,3 +36,12 @@ Step 3: Run the app
 
 Step 4: Access via localhost
 <pre>  http://localhost:3000 </pre>
+
+## Unit Testing
+
+Unit tests are included for the UEN validation logic.
+
+To run test:
+<pre>
+npm test
+</pre>
