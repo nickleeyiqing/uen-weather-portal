@@ -90,12 +90,12 @@ export default function Home() {
             value={uen}
             onChange={(e) => setUen(e.target.value)}
             placeholder="Enter UEN (e.g., T09LL001B)"
-            style={{ padding: "5px", width: "100%", marginBottom: "10px" }}
+            style={{ paddingRight: "1px",paddingTop:"10px", width: "100%", marginBottom: "10px" }}
           />
           <button
             onClick={handleValidateUEN}
             style={{
-              padding: "10px 20px",
+              padding: "5px 20px",
               backgroundColor: "#0070f3",
               color: "white",
               border: "none",
