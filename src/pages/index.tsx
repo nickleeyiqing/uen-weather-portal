@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { validateUEN } from "@/utils/validateUEN";
-import '@testing-library/jest-dom';
+
 
 export default function Home() {
   const [uen, setUen] = useState("");
