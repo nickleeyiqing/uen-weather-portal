@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { validateUEN } from "@/utils/validateUEN";
+import '@testing-library/jest-dom';
 
 export default function Home() {
   const [uen, setUen] = useState("");
@@ -59,7 +60,7 @@ export default function Home() {
           OneST Portal
         </h1>
 
-        {/* UEN Validator */}
+        {/* UEN Validator utilizing Regex */}
         <section style={{ marginBottom: "3rem" }}>
           <h2 style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
             UEN Validator
@@ -109,8 +110,7 @@ export default function Home() {
           )}
         </section>
 
-        {/* Weather Forecast */}
-        {/* Weather Forecast */}
+        {/* Weather Forecast Section*/}
         <section>
           <h2>2-Hour Weather Forecast</h2>
           <select
